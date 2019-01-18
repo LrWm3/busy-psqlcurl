@@ -5,9 +5,13 @@ A docker psqlcurl client which never exits, allowing `docker exec -it busy-psqlc
 ## Features
 
 :star: alpine:3.8
+
 :star: sh
+
 :star: curl
+
 :star: psql + the pg_* crew
+
 :star: unzip
 
 ## Usage
