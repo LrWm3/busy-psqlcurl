@@ -19,6 +19,6 @@ A docker psqlcurl client which never exits, allowing `docker exec -it busy-psqlc
 Simply run it in the background and then exec in as follows
 
 ```
-docker run -d pgcurl:0.1 --name pgcurl
-docker exec -it pgcurl sh
+docker run -d --name busy-psqlcurl williammarsman/busy-psqlcurl:0.1
+docker exec -it busy-psqlcurl sh
 ```
